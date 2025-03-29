@@ -93,4 +93,5 @@ spec:
         cpu: 10m
         memory: 128Mi
     service:
-      type: "${service:=LoadBalancer}"
+      # type: "${service:=LoadBalancer}"
+      type: "${service:=NodePort}"
